@@ -1,5 +1,5 @@
-## Lab Report 1
-# Command cd
+# Lab Report 1
+## Command cd
 ![Image](cd.jpg)
 `cd`
 1. absolute path: `/Users/christyay`
