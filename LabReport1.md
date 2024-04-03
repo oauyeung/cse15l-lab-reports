@@ -12,6 +12,5 @@
 2. There are no output that are produced.Using `cd` follow by a directory will set the working directory that directory.
 3. the output is not an error
 
-
-   
+![Image](cd3.jpg) 
 
