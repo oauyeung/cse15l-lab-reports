@@ -1,8 +1,8 @@
 # Lab Report 1
 ## Command cd
+Command ran: `cd`
 ![Image](cd1.jpg)
 
-Command ran: `cd`
 1. absolute path before command was ran: `/Users/christyay/lecture1`
 2. There are no output that are produced Using `cd` and the output is not an error. using `cd` without any argument will set the working directory to home directory making the absolute path `/Users/christyay`which is the home directory.
   
