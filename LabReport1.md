@@ -33,7 +33,7 @@
 
 ### Command ran: `ls lecture1`
 
-![Image](ls2.jpg)
+![Image](ls2 .jpg)
 
 1. absolute path before command was ran:`/Users/christyay`
 2. The output we get when using ls follow by a path to a directory as an argument is a list of all folder and files in the given path. Output is not a error.
