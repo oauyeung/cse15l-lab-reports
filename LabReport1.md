@@ -13,8 +13,9 @@
    
 
 ![Image](cd3.jpg) 
-`cd /Users/christyay/lecture1/Hello.java`
-1.absolute path before command was ran:
-2. The output is an error (cd: not a directory: /Users/christyay/lecture1/Hello.java), it produced an error because cd can't open an file and have to be follow by a diectory.
+`cd IDs/fifi2.jpeg`
+1.absolute path before command was ran: `/Users/christyay/desktop`
+2. We are trying to open the file name `fifi2.jpeg` in folder Ids and we can see that the output is an error (cd: not a directory: IDs/fifi2.jpeg), it produced an error because cd can't open an file and have to be follow by a diectory. 
+
    
 
