@@ -17,15 +17,15 @@ Command ran: `cd lecture1`
 ![Image](cd3.jpg) 
 
 Command ran: `cd messages/en-us.txt`
-1.absolute path before command was ran: `/Users/christyay/lecture1`
-2. We are trying to open the file name `en-us.txt` in folder messages and we can see that the output is an error (cd: not a directory: messages/en-us.txt), it produced an error because cd can't open an file and have to be follow by a diectory. 
+1. absolute path before command was ran: `/Users/christyay/lecture1`
+2. We are trying to open the file name `en-us.txt` in folder `messages` and we can see that the output is an error (cd: not a directory: messages/en-us.txt), it produced an error because cd can't open an file and have to be follow by a diectory. 
 
 ## Command ls
 ![Image](ls.jpg)
 
 Command ran: `ls`
-1.  absolute path before command was ran:`/Users/christyay`
-2.  The output we get when using ls without any argument is a list of all folder and files in the current working directory. And output is not an error.
+1. absolute path before command was ran:`/Users/christyay`
+2. The output we get when using ls without any argument is a list of all folder and files in the current working directory. And output is not an error.
 
 
 ![Image](ls2.jpg)
@@ -38,28 +38,28 @@ Command ran: `ls lecture1`
 ![Image](ls3.jpg)
 
 Command ran: `ls messages/en-us.txt   `
-1.absolute path before command was ran: `/Users/christyay/lecture1`
-2. We are trying to open the file name `en-us.txt` in folder messages, the output is not an error and it simply prints the path to the file which is `messages/en-us.txt`. 
+1. absolute path before command was ran: `/Users/christyay/lecture1`
+2. We are trying to open the file name `en-us.txt` in folder `messages`, the output is not an error and it simply prints the path to the file which is `messages/en-us.txt`. 
 
 ## Command cat
 ![Image](cat.jpg)
 
 Command ran: `cat`
-1.  absolute path before command was ran:`/Users/christyay`
-2.  using cat command without any argument will result in a strange behavior where the terminal will simply wait for your input something then user can type in whatever you want, and when you press Enter, it will display what you typed back to you. This doesn not result in any error but it also serve no purpose as it just waits for an input and return the same output back to user.
+1. absolute path before command was ran:`/Users/christyay`
+2. using cat command without any argument will result in a strange behavior where the terminal will simply wait for your input something then user can type in whatever you want, and when you press Enter, it will display what you typed back to you. This doesn not result in any error but it also serve no purpose as it just waits for an input and return the same output back to user.
 
 ![Image](cat2.jpg)
 
 Command ran: `cat lecture1`
-1.  absolute path before command was ran:`/Users/christyay`
-2.  using cat command with a path to a directory as an argument will give you an error(cat: lecture1: Is a directory). we got an error because the argument follow by the cat command must be a file name or more than one file name but it cannot be a directory.
+1. absolute path before command was ran:`/Users/christyay`
+2. using cat command with a path to a directory as an argument will give you an error(cat: lecture1: Is a directory). we got an error because the argument follow by the cat command must be a file name or more than one file name but it cannot be a directory.
 
 
 ![Image](cat3.jpg)
 
 Command ran: `cat messages/en-us.txt` and `cat messages/en-us.txt messages/zh-cn.txt`
-1.absolute path before command was ran: `/Users/christyay/lecture1`
-2. We are trying to open the file name `en-us.txt` as well as opening both `en-us.txt` and `zh-cn.txt` in folder messages. this did not produce an error and it printed the content inside the file we peovided. one argument prints the content in the single file, more than one argument will print content of each.
+1. absolute path before command was ran: `/Users/christyay/lecture1`
+2. We are trying to open the file name `en-us.txt` as well as opening both `en-us.txt` and `zh-cn.txt` in folder `messages`. this did not produce an error and it printed the content inside the file we peovided. one argument prints the content in the single file, more than one argument will print content of each.
 
 
 
