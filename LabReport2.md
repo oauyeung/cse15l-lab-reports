@@ -18,5 +18,5 @@
 ## Part 2
 1. ![Image](lab2-2.1.jpg)
 2.  ![Image](lab2-2.2.jpg)
-3.   ![Image](lab2-2.3.jpg)
+3.   ![Image](lab2-2.3.png)
 
