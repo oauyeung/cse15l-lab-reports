@@ -46,6 +46,33 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
+5. The original code had servel problem, first, it iterate through the whole list swapping value, this would lead to reversing the array back to its original order. we fix the code by iterating only up to half of the array's length (arr.length/2). the placeHolder variable we added ensures that array elements are correctly swapped without losing their original values.
+
+
+   ## part2
+
+1. `-i`
+example 1
+      Command
+   
+      ```
+      grep -i "ISSUE" pmed.0020191.txt
+      ```
+      Output
+
+      ```
+       comments [2] implied that they took a position on this issue.
+	```
+example2
+	Command:
+```
+christyay@Christys-Air docsearch % grep -i "wHaT" ./technical/plos/pmed.0020191.txt
+```
+	Output:
+ ```
+        remains: if such guidelines were to be established, what individuals, institutions,
+        permission? Who is to decide what is “historically significant”? Not to mention the
+```
 
 
 
