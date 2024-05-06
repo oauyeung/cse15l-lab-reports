@@ -12,13 +12,14 @@ The code I picked is `reverseInPlace(int[] arr)` method in the file`ArrayTest.ja
 
 2.An input that doesn't induce a failure
 ```
+```
 @Test 
 	public void testReverseInPlace2() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-
+```
 
 3.  the output of running the two tests above
 
@@ -33,8 +34,17 @@ static void reverseInPlace(int[] arr) {
           arr[i] = arr[arr.length - i - 1];
      }
 }
-
+```
 After:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2 ; i += 1) {
+      int placeHolder = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = placeHolder;
+    }
+}
+```
 
 
 
