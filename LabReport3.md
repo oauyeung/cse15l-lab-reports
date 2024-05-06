@@ -9,9 +9,9 @@ The code I picked is `reverseInPlace(int[] arr)` method in the file`ArrayTest.ja
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3,2,1}, input1);
 }
-
-2.An input that doesn't induce a failure
 ```
+2.An input that doesn't induce a failure
+
 ```
 @Test 
 	public void testReverseInPlace2() {
