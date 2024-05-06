@@ -66,7 +66,7 @@ Output:
       ```
        comments [2] implied that they took a position on this issue.
 	```
- This commend `-i` gets the string from the file provided but it ignore case sensitivity, without this command-line options the output would of been empty because there is no string "ISSUE" in the file, but due to this command-line options it also looked for string with all lower case "issue".
+ This commend `-i` gets the string from the file provided but it ignore case sensitivity, without this command-line options the output would of been empty because there is no string "ISSUE" in the file, but due to this command-line options it also looked for string with all lower case "issue". Also, I first cd into the correct directory with the file located.
 
 example2
 
