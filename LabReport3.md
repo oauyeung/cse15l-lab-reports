@@ -52,8 +52,8 @@ static void reverseInPlace(int[] arr) {
    ## part2
 
 1. `-i`
-example 1
-      Command
+\\ example 1
+     \\ Command
    
       ```
       grep -i "ISSUE" pmed.0020191.txt
