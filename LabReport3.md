@@ -21,4 +21,27 @@ The code I picked is `reverseInPlace(int[] arr)` method in the file`ArrayTest.ja
 
 
 3.  the output of running the two tests above
-4.  
+
+![Image](lab4-1.jpg)
+We can see that the `testReverseInPlace1()`failed and the `testReverseInPlace2()`passed
+
+4.the before-and-after code change required to fix it 
+
+```
+static void reverseInPlace(int[] arr) {
+     for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = arr[arr.length - i - 1];
+     }
+}
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2 ; i += 1) {
+      int placeHolder = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = placeHolder;
+    }
+  }
+
+  
+  
