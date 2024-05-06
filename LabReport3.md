@@ -3,7 +3,6 @@
 The code I picked is `reverseInPlace(int[] arr)` method in the file`ArrayTest.java`
 
 ```
-{
 @Test 
 	public void testReverseInPlace() {
     int[] input1 = {1,2,3};
