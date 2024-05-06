@@ -51,7 +51,7 @@ static void reverseInPlace(int[] arr) {
 
 ## part2
 
-1. `-i`
+### 1. `-i`
    
 example 1
 
@@ -81,7 +81,7 @@ Output:
 ```
  This command-line option `-i` gets the string from the directory provided into the file but it ignore case sensitivity, without this command-line options the output would of been empty because there is no string "whaT" in the file, but due to this command-line options it also looked for string with all lower case "what".
 
-2. -c
+### 2. `-c`
 
 example1
 
@@ -115,7 +115,7 @@ Output:
 The command-line option -c counts the lines number when the strings in the file provided, in example 1 there is 1 line with "issue" so it outputted 1, in the example 2 I used a directory of a file as augument but it did the same thing and count thw line with "what"
 
 
-3. -v
+### 3. `-v`
 
 example1
 
@@ -161,7 +161,7 @@ Output:
 
 The command-line option -v prints the line that does not include the string provided, As we can see it didn't print any line with the key word provided.
 
-4. -n
+### 4.`-n`
 
 example1
 
@@ -178,9 +178,11 @@ Output:
 10:        remains: if such guidelines were to be established, what individuals, institutions,
 12:        permission? Who is to decide what is “historically significant”? Not to mention the
 ```
+The command-line option -n prints the line that include the string provided and also provide the line number that String showed up before the line, as we can see from the output the string "what" showed up on line 10 and 12 of the file.
+
 
 example2
-The command-line option -v prints the line that include the string provided and also provide the line number that String showed up before the line, as we can see from the output the string "what" showed up on line 10 and 12 of the file.
+
 command:
 
 ```
