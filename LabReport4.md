@@ -32,7 +32,7 @@ i (change to insertion mode
 
 `<esc>` (to escape from insertion mode) 
 
-:wq `<enter>` (to save and exit)
+`:wq<enter>` (to save and exit)
 
 ![Image](lab4e.jpg)
 key pressed: `bash<space>test.sh<enter>`
