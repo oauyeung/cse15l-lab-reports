@@ -21,7 +21,7 @@ The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.J
 ![Image](lab4d.jpg)
 key pressed `vim ListExamples.java<Enter>
 
-:44 (to move down for 44 times) 
+:44<enter> (to move down for 44 times) 
 
 5l (to move right for 5 times) 
 
