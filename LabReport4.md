@@ -10,7 +10,7 @@ Keys pressed: `git<space>clone<space><Comm-V>`
 
 Summary: I first copied the link from Github then paste the link into the terminal
 
-![Image](lab4c.jpg)
+![Image](lab7c.jpg)
 Keys pressed: `<up><up><up><up><up><enter>`
 Summary: The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 5 up in the search history, so I used up arrow to access it and enter to run it after accessing it. 
 
@@ -40,7 +40,7 @@ I used bash test.sh this time to run the test as there is already test cases in 
 
 
 ![Image](lab4f.jpg)
-`git<space>add<space>`.
+`git<space>add<space>.`
 `git<space>commit<space>-m<space>"Some concise message describing the change"`
 `git<space>push<space>origin<space>main`
 
