@@ -20,12 +20,19 @@ The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.J
 
 ![Image](lab4d.jpg)
 vim ListExamples.java
-:44
+
+:44 (to move down for 44 times) 
+
 5l (to move right for 5 times) 
+
 x (to delete 1) 
+
 i (change to insertion mode
-2
+
+2 (add 2
+
 <esc> (to escape from insertion mode) 
+
 :wq (to save and exit)
 
 
