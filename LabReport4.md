@@ -4,7 +4,7 @@
 ![Image](lab4.jpg)
 
 Keys pressed: `<Ctrl-R><space>ssh <up><enter>`
-\\
+<br>
 Summary: I used the <Ctrl-R> command then typed in part of a command "ssh" the <Ctrl-R> command allow me to look at the command history that associate with the key word I entered then I clicked the up key to select the command and enter to run. This way I can quickly find the command history of ssh.
 
 2. Step 5
