@@ -68,7 +68,11 @@ Summary:I used bash test.sh this time to run the test as there is already test c
 
 Key pressed:
 `git<space>add<space>.`
+
+
 `git<space>commit<space>-m<space>"Some concise message describing the change"`
+
+
 `git<space>push<space>origin<space>main`
 
 
