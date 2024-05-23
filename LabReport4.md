@@ -4,13 +4,14 @@
 ![Image](lab4.jpg)
 
 Keys pressed: `<Ctrl-R><space>ssh <up><enter>`
+\\
 Summary: I used the <Ctrl-R> command then typed in part of a command "ssh" the <Ctrl-R> command allow me to look at the command history that associate with the key word I entered then I clicked the up key to select the command and enter to run. This way I can quickly find the command history of ssh.
 
 2. Step 5
 ![Image](lab4b.jpg)
 
 Keys pressed: `git<space>clone<space><Comm-V>`
-
+\\
 Summary: I first copied the link from Github then paste the link into the terminal
 
 3. Step 6
@@ -29,8 +30,8 @@ key pressed `vim<space>ListExamples.java<Enter>
 x
 i
 2
-<esc>` (to escape from insertion mode) 
-:wq<enter>` (to save and exit)
+<esc>
+:wq<enter>`
 Summary: I first enter vim into the ListExamples.java file to edit the file. Then I used the command :44 to get to the 44th line, then using 5l to more right 5 time and got to the letter 1 which is the letter we want to make changes on. then I pressed x to delet the letter one and use i the enter insertion mode. then I pressed 2 to insert that letter in the file and esc to escape from insert mode since I am done editing. then I used :wq to save and exit.
 5. Step 8
 ![Image](lab4e.jpg)
