@@ -38,7 +38,8 @@ The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.J
 ![Image](lab4d.jpg)
 
 
-key pressed `vim<space>ListExamples.java<Enter>:44<enter>5l x i 2<esc>:wq<enter>`
+key pressed: `vim<space>ListExamples.java<Enter>:44<enter>5l x i 2<esc> :wq <enter>`
+
 
 
 Summary: I first enter vim into the ListExamples.java file to edit the file. Then I used the command :44 to get to the 44th line, then using 5l to more right 5 time and got to the letter 1 which is the letter we want to make changes on. then I pressed x to delet the letter one and use i the enter insertion mode. then I pressed 2 to insert that letter in the file and esc to escape from insert mode since I am done editing. then I used :wq to save and exit.
