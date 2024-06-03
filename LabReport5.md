@@ -1,4 +1,5 @@
-Original Post from a Student on Piazza
+### Part1
+#### Original Post from a Student on Piazza
 
 Student Post:
 
@@ -74,3 +75,6 @@ this command triggered the javac and java written in test.sh which compiled and 
 
 A description of what to edit to fix the bug:
 The bad code had a if statement that only adds the value in the array if the value is not the lowest which is what casuing the bug, I got rid of that line and added another line to subtract the lowest value once from the sum and the code work as intended. 
+
+### Part 2
+Something I learned from the second half of the quarter that shoot out to me the most is using vim to edit files in the terminal. It a useful and convience way to edit files once I get used to all the command in vim. It's something that I didn't know excisted before taking this class and it a useful trick to have.
