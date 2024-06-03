@@ -10,7 +10,7 @@ I'm having trouble with the `averageWithoutLowest` method in my `ArrayExamples` 
 
 Screenshot:
 
-[Image: Screenshot showing the code and output]
+![Image](lab5-1.jpg)
 
 
 Thanks!
@@ -20,7 +20,7 @@ Thanks!
 #### Response from a TA
 
 **TA Response:**
-Hi [Student's Name],
+Hi ,
 
 You are right, It looks like the issue might be with how you're summing up the values. Specifically, you're only excluding the first instance of the lowest value, which might not be sufficient if the lowest value occurs multiple times, you can see that when you only have one instances of the lowest value your test pass(testaverageWithoutLowest()), however when you have more than 1 instances of the lowest value you code fail.
 
@@ -38,10 +38,10 @@ Hi ,
 
 I added the print statement as you suggested. Here's the output when I run my test:
 
-{screen shot2]
+![Image](lab5-2.jpg)
 
 It looks like when there is more than one instances of the lowest value, the value is not added to the sum at all, I realized the problem is actually in how I'm handling the lowest value. The intended behavior is to exclude only one instance of the lowest number, but the bug is that it is excluding all instances of the lowest number. I notice my code had a if statement that only adds the value in the array if the value is not the lowest which is what casuing the bug, I got rid of that line and added another line to subtract the lowest value once from the sum and the code work as intended. 
-{screen shot3]
+![Image](lab5-3.jpg)
 Thanks,
 [Student's Name]
 
@@ -62,8 +62,11 @@ Copy code
 
 **Contents of Each File Before Fixing the Bug:**
 1. ArrayExamples.java
-2. ArrayTests.java
-3. test.sh
+![Image](lab5-4.jpg)
+3. ArrayTests.java
+![Image](lab5-5.jpg)
+5. test.sh
+![Image](lab5-6.jpg)
 
 The full command line (or lines) you ran to trigger the bug:
 `bash test.sh` 
