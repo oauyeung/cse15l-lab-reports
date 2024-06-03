@@ -10,7 +10,7 @@ I'm having trouble with the `averageWithoutLowest` method in my `ArrayExamples` 
 
 Screenshot:
 
-![Image](lab5-1.jpg)
+![Image](Lab5-1.jpg)
 
 
 Thanks!
@@ -38,10 +38,10 @@ Hi ,
 
 I added the print statement as you suggested. Here's the output when I run my test:
 
-![Image](lab5-2.jpg)
+![Image](Lab5-2.jpg)
 
 It looks like when there is more than one instances of the lowest value, the value is not added to the sum at all, I realized the problem is actually in how I'm handling the lowest value. The intended behavior is to exclude only one instance of the lowest number, but the bug is that it is excluding all instances of the lowest number. I notice my code had a if statement that only adds the value in the array if the value is not the lowest which is what casuing the bug, I got rid of that line and added another line to subtract the lowest value once from the sum and the code work as intended. 
-![Image](lab5-3.jpg)
+![Image](Lab5-3.jpg)
 Thanks,
 [Student's Name]
 
@@ -62,11 +62,11 @@ Copy code
 
 **Contents of Each File Before Fixing the Bug:**
 1. ArrayExamples.java
-![Image](lab5-4.jpg)
+![Image](Lab5-4.jpg)
 3. ArrayTests.java
-![Image](lab5-5.jpg)
+![Image](Lab5-5.jpg)
 5. test.sh
-![Image](lab5-6.jpg)
+![Image](Lab5-6.jpg)
 
 The full command line (or lines) you ran to trigger the bug:
 `bash test.sh` 
