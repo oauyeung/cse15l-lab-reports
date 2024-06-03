@@ -6,10 +6,10 @@ Subject: Bug in averageWithoutLowest Method
 
 Hi,
 
-I'm having trouble with the `averageWithoutLowest` method in my `ArrayExamples` class. It doesn't seem to be calculating the average correctly when there are multiple instances of the lowest value. For example, with the input {3.0, 3.0, 4.0}, I expect the result to be (3.0 + 4.0) / 2 =3.5, but I'm not getting that and got 2.0 instead. I am guessing that the bug have something to do with not correctly adding up the items in the array. Any ideas on what might be wrong?
+I'm having trouble with the `averageWithoutLowest` method in my `ArrayExamples` class. It doesn't seem to be calculating the average correctly when there are multiple instances of the lowest value. For example, with the input {3.0, 3.0, 4.0}, I expect the result to be (3.0 + 4.0) / 2 =3.5, but I'm not getting that and got 2.0 instead. I am guessing that the bug have something to do with not correctly adding up the items in the array. Any ideas on what might be wrong? I attached picture of my code and the test case I used to run my code.
 
 Screenshot:
-
+![Image](Lab5-4.jpg)
 ![Image](Lab5-1.jpg)
 
 
