@@ -54,7 +54,9 @@ Copy code
 
 **File & Directory Structure:**
 /Users/christyay/lab3/ArrayExamples.java
+
 /Users/christyay/lab3/ArrayTests.java
+
 /Users/christyay/lab3/test.sh
 
 
