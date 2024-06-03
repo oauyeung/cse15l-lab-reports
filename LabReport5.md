@@ -22,7 +22,7 @@ Thanks!
 **TA Response:**
 Hi ,
 
-You are right, It looks like the issue might be with how you're summing up the values. Specifically, you're only excluding the first instance of the lowest value, which might not be sufficient if the lowest value occurs multiple times, you can see that when you only have one instances of the lowest value your test pass(testaverageWithoutLowest()), however when you have more than 1 instances of the lowest value you code fail.
+You are right, It looks like the issue might be with how you're summing up the values. Specifically, you're excluding all of the instance of the lowest value, which might not be sufficient if the lowest value occurs multiple times because what we want to do here is to only exclude the lowest value once, you can see that when you only have one instances of the lowest value your test pass(testaverageWithoutLowest()), however when you have more than 1 instances of the lowest value you code fail.
 
 To better understand the behavior, can you add a print statement inside the second loop to print out each value being added to the sum to see the behavior of values that are being added.
 
