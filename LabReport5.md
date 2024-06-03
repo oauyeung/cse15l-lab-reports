@@ -47,9 +47,6 @@ Thanks
 
 
 
-mathematica
-Copy code
-
 #### Information Needed About the Setup
 
 **File & Directory Structure:**
