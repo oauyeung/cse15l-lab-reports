@@ -43,8 +43,7 @@ I added the print statement as you suggested. Here's the output when I run my te
 
 It looks like when there is more than one instances of the lowest value, the value is not added to the sum at all, I realized the problem is actually in how I'm handling the lowest value. The intended behavior is to exclude only one instance of the lowest number, but the bug is that it is excluding all instances of the lowest number. I notice my code had a if statement that only adds the value in the array if the value is not the lowest which is what casuing the bug, I got rid of that line and added another line to subtract the lowest value once from the sum and the code work as intended. 
 ![Image](Lab5-3.jpg)
-Thanks,
-[Student's Name]
+Thanks
 
 
 
